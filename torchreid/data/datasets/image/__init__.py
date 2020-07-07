@@ -15,3 +15,4 @@ from .occlusion_reid import Occluded_REID
 from .p_ETHZ import P_ETHZ
 from .partial_reid import Paritial_REID
 from .pduke_reid import P_Dukereid
+from .occluded_duke import Occluded_duke

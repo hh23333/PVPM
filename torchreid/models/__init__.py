@@ -68,7 +68,6 @@ __model_factory = {
     'hacnn': HACNN,
     'pcb_p6': pcb_p6,
     'pcb_p4': pcb_p4,
-    'pose_g': pose_resnet50_256_global,
     'pose_p4':pose_resnet50_256_p4,
     'pose_p6':pose_resnet50_256_p6,
     'pose_p6s':pose_resnet50_256_p6_pscore_reg,

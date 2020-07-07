@@ -1,8 +1,8 @@
 from __future__ import absolute_import
 from __future__ import division
 
-__all__ = ['pcb_p6', 'pcb_p4', 'pose_resnet50_256_p4', 'pose_resnet50_256_p6', 'pose_resnet50_256_global'
-    , 'pose_resnet50_256_p6_pscore_reg', 'pose_resnet50_256_p4_pscore_reg']
+__all__ = ['pcb_p6', 'pcb_p4', 'pose_resnet50_256_p4', 'pose_resnet50_256_p6',
+    'pose_resnet50_256_p6_pscore_reg', 'pose_resnet50_256_p4_pscore_reg']
 
 import torch
 from torch import nn

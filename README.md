@@ -28,6 +28,7 @@ Change path to your own dataset root and run sh files in /scripts:
 sh openpose_occluded_reid.sh
 sh openpose_market.sh
 ``` 
+Extracted Pose information can be found [here](https://pan.baidu.com/s/1Majze1iFo7FytREijmQO5A)(code:iwlz)
 
 ## To Train PCB baseline
 
@@ -68,9 +69,17 @@ python scripts/main.py --load-pose --root PATH_TO_DATAROOT
  --max-epoch 30
  --part-score
 ```
+Trained PCB model and PVPM model can be found [here](https://pan.baidu.com/s/16lr8m-wv-XOXACqIthC8lw)(code:64zy)
 
- 
-
+# Citation
+If you find this code useful to your research, please cite the following paper:
+>@inproceedings{gao2020pose,  
+  title={Pose-guided Visible Part Matching for Occluded Person ReID},  
+  author={Gao, Shang and Wang, Jingya and Lu, Huchuan and Liu, Zimo},  
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},  
+  pages={11744--11752},  
+  year={2020}  
+}
 
 
 

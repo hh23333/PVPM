@@ -21,7 +21,8 @@ __image_datasets = {
     'occlusion_reid': Occluded_REID,
     'partial_reid':Paritial_REID,
     'p_ethz':P_ETHZ,
-    'p_duke':P_Dukereid
+    'p_duke':P_Dukereid,
+    'o_duke':Occluded_duke
 }
 
 

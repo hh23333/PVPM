@@ -4,7 +4,7 @@ from __future__ import division
 import torch
 import torch.nn as nn
 import numpy as np
-import miosqp
+# import miosqp
 
 class TripletLoss(nn.Module):
     """Triplet loss with hard positive/negative mining.

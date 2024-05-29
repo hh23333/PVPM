@@ -42,7 +42,7 @@ python scripts/main.py --root PATH_TO_DATAROOT \
  --transforms random_flip\
  --optim sgd --lr 0.02\
  --stepsize 25 50\
- --staged-lr --height 384 --width 192\
+ --staged-lr --height 384 --width 128\
  --batch-size 32 --base-lr-mult 0.5
 ```
 ## To train PVPM
